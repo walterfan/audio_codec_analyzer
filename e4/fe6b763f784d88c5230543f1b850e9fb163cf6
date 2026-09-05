@@ -1,0 +1,19 @@
+.gitignore
+  s_1ec9f884d442e7::t_23ac43b8760f1e 2,5-40,45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "e4fe6b763f784d88c5230543f1b850e9fb163cf6",
+  "prompts": {},
+  "sessions": {
+    "s_1ec9f884d442e7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f8e488ac6ffeppeWLTSm8AdeG6",
+        "model": "gpt-oss-120b"
+      },
+      "human_author": "Walter Fan <walter.fan@zoom.us>"
+    }
+  }
+}
