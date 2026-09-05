@@ -1,5 +1,7 @@
 # audio_codec_analyzer (`aca`)
 
+[Apache License 2.0](./LICENSE)
+
 A C++20 command-line tool that demonstrates — and **measures** — the audio
 capture chain every voice/video conferencing client runs:
 
@@ -403,4 +405,4 @@ output: Opus is lossy and adds delay, and AEC/AGC adapt over time.
 
 ## License
 
-No license file yet — add one before publishing.
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
