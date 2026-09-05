@@ -1,0 +1,152 @@
+src/dsp/echo_canceller.cpp
+  s_3b679472455ab5::t_708b47bbcfa845 1-107
+src/cli/main.cpp
+  s_3b679472455ab5::t_6c503b0713cd9d 1-7,9-81
+  s_3b679472455ab5::t_8c537c02b9861f 8
+src/live/live_session.cpp
+  s_3b679472455ab5::t_ffd93b76704b8a 10
+  s_3b679472455ab5::t_306cc4e85a1cd0 1-9,11-213
+include/aca/speex_util.h
+  s_3b679472455ab5::t_4a55215f012b90 1-31
+tests/test_metrics.cpp
+  s_3b679472455ab5::t_2064d1b769f524 1-67
+README.md
+  s_3b679472455ab5::t_c84bd29a3fa301 3-4,7-9,12-15,17,19-58,60-73,75-127,130-131,134,136-143,145,147-148,151-152,155-156,160,162,166,169,171-177,180-191,194-208,210,212-217,219-238,240,242-247,249,251-260,262-298,300-315,317-319,328-406
+  s_3b679472455ab5::t_7ba2395f4935f3 150,299,316
+  s_8d1029eea80684::t_0af44688bde4a3 320
+  s_3b679472455ab5::t_0deee5b5e1544e 1-2,5-6,10-11,16,18,59,74,128-129,132-133,135,144,146,149,153-154,157-159,161,163-165,167-168,170,178-179,192-193,209,211,218,239,241,248,250,261,322
+  s_8d1029eea80684::t_f916dd8f3db849 321,323-327
+tests/test_cli_args.cpp
+  s_3b679472455ab5::t_61a66746cad0a3 1-107
+tests/test_dsp.cpp
+  s_3b679472455ab5::t_46013ae52edd2f 1-128,132-141,143-146,148-152,154,188-197,201-282
+  s_3b679472455ab5::t_950285c6f18e39 129-131,142,147,153,155-156,158,162-163,173,177-187
+  s_3b679472455ab5::t_c686b50282ef43 157,159-161,164-172,174-176
+  s_3b679472455ab5::t_59dd8ff19bed54 198-200
+include/aca/metrics.h
+  s_3b679472455ab5::t_06dff086bd1441 1-34
+tests/test_opus_codec.cpp
+  s_3b679472455ab5::t_278c52f60e0d60 1-129
+include/aca/echo_canceller.h
+  s_3b679472455ab5::t_51b8387408c431 1-45
+src/core/metrics.cpp
+  s_3b679472455ab5::t_9728d819f67544 1-86
+include/aca/live_session.h
+  s_3b679472455ab5::t_fd939c2d9bc997 1-51
+include/aca/noise_suppressor.h
+  s_3b679472455ab5::t_85f8bc1edec8b7 1-64
+src/cli/cmd_codec.cpp
+  s_3b679472455ab5::t_8c537c02b9861f 9
+  s_3b679472455ab5::t_879a2c505b3094 1-8,10-105
+tests/test_helpers.h
+  s_3b679472455ab5::t_ae50f5df6206f6 1-28,56-87
+  s_3b679472455ab5::t_2e65f1d4252623 29-55
+AGENTS.md
+  s_8d1029eea80684::t_ada2d208430867 15-20,23-25
+  s_8d1029eea80684::t_54e06a749f5822 13
+  s_3b679472455ab5::t_78d26346a8e327 90-95
+  s_3b679472455ab5::t_7ba2395f4935f3 11
+  s_3b679472455ab5::t_7ef9666b5755bd 1-10,12,14,21-22,26-89,96-110
+tests/test_wav_io.cpp
+  s_3b679472455ab5::t_7105ac270702f2 1-76
+include/aca/audio_buffer.h
+  s_3b679472455ab5::t_aa9d880a905625 1-36
+src/cli/cmd_live.cpp
+  s_3b679472455ab5::t_a1fa6bc5fdcee6 1-3,5-102
+  s_3b679472455ab5::t_8c537c02b9861f 4
+tools/gen_fixtures.cpp
+  s_3b679472455ab5::t_3a080a489e70c1 1-127
+src/core/audio_buffer.cpp
+  s_3b679472455ab5::t_07025d0a8dcfe0 1-23
+.github/workflows/ci.yml
+  s_8d1029eea80684::t_9cf3a57aef94a8 1-89
+src/codec/opus_codec.cpp
+  s_3b679472455ab5::t_65a237ebdb79c2 1-2,6-205
+  s_3b679472455ab5::t_b4f6aaff95f5c1 3-5
+include/aca/wav_io.h
+  s_3b679472455ab5::t_7536694cb7dfae 1-16
+src/cli/cmd_analyze.cpp
+  s_3b679472455ab5::t_397e9ab4b33566 1-5,7-30
+  s_3b679472455ab5::t_8c537c02b9861f 6
+.clang-format
+  s_3b679472455ab5::t_2a8d4213a8ff46 1-3
+include/aca/opus_codec.h
+  s_3b679472455ab5::t_335d3fc139cbd1 1-83
+src/dsp/gain_controller.cpp
+  s_3b679472455ab5::t_42726a9295308d 1-63
+src/core/wav_io.cpp
+  s_3b679472455ab5::t_a51cf3d5a1d648 1-60
+tests/test_frame_stream.cpp
+  s_3b679472455ab5::t_bce02edd485175 1-75
+src/dsp/pipeline.cpp
+  s_3b679472455ab5::t_0ff6f2d55589b5 1-10,12-172
+  s_3b679472455ab5::t_7a16d79033805c 11
+src/core/frame_stream.cpp
+  s_3b679472455ab5::t_d70d4b92b01e58 1-102
+.gitignore
+  s_3b679472455ab5::t_6c78c0cdd71fe0 11-13
+  s_8d1029eea80684::t_b4ccacdfc2a0d6 8-10
+  s_3b679472455ab5::t_0953be4ade5bde 1-7,14-19
+Makefile
+  s_3b679472455ab5::t_6d79ff03529f84 1-5,7-10,24,26-43,49-67,78-79,89,122-126,128-129
+  s_8d1029eea80684::t_f472285e537a3c 6,73-76,82-88,127
+  s_8d1029eea80684::t_5fa1a5c425170f 23
+  s_8d1029eea80684::t_ceb4c328648d5f 44-48
+  s_8d1029eea80684::t_31c42c6fd90563 130-147
+  s_8d1029eea80684::t_15dcdd91cf9a7e 11-22,90-121
+  s_3b679472455ab5::t_41f6912dacc420 68-72,77,80-81
+  s_8d1029eea80684::t_b6e37319c1edeb 25
+src/dsp/noise_suppressor.cpp
+  s_3b679472455ab5::t_a8afbf6eafdf65 1-6,8,10-34,40-63
+  s_3b679472455ab5::t_4a690d0d509481 7,9,35-39
+tools/fetch_real_assets.sh
+  s_8d1029eea80684::t_37a25909371a83 1-112
+CMakeLists.txt
+  s_3b679472455ab5::t_eaf692ac4e7cff 117
+  s_3b679472455ab5::t_98568db0f5cc53 1-6,8-15,21-48,50-58,68,71,78-116,118-127
+  s_8d1029eea80684::t_064715c3c2d438 59-67,69-70,72-77
+  s_3b679472455ab5::t_f48272609de27c 49
+  s_8d1029eea80684::t_489dd9abb05f8d 16-20
+  s_8d1029eea80684::t_90ccf5e2348b7e 7
+include/aca/pipeline.h
+  s_3b679472455ab5::t_338f20999e9639 8
+  s_3b679472455ab5::t_d57aa112ca6f8f 1-7,9-73
+src/cli/cmd_dsp.cpp
+  s_3b679472455ab5::t_8c537c02b9861f 10
+  s_3b679472455ab5::t_9048806bea8ff4 1-9,11-183
+include/aca/frame_stream.h
+  s_3b679472455ab5::t_ee96fcb4af8646 1-36
+src/cli/args.cpp
+  s_3b679472455ab5::t_8c537c02b9861f 5
+  s_3b679472455ab5::t_7e413965b0c308 1-4,6-111
+.cppcheck-suppressions
+  s_8d1029eea80684::t_eea635a8056154 1-14
+.clang-tidy
+  s_8d1029eea80684::t_ba68fa8af4e2af 1-34
+include/aca/cli_args.h
+  s_3b679472455ab5::t_1f6a9ed346d329 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "e64e8fcca8b4a51c0936c59e903c0cfdb1638411",
+  "prompts": {},
+  "sessions": {
+    "s_3b679472455ab5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f997a0a33ffe9EsS4W0mvq3pr2",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Walter Fan <walter.fan@zoom.us>"
+    },
+    "s_8d1029eea80684": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "1228bc1d-8510-4a92-ac99-d8e8a0b7b981",
+        "model": "default"
+      },
+      "human_author": "Walter Fan <walter.fan@zoom.us>"
+    }
+  }
+}
