@@ -1,0 +1,21 @@
+README.md
+  s_8846fc44100352::t_09d48b239325d0 4
+  s_8846fc44100352::t_96f7f74d1cb958 408
+  s_8846fc44100352::t_e10d2f54cbe802 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "d08d9ca21efb23846c117a9c74efacdaf75124a9",
+  "prompts": {},
+  "sessions": {
+    "s_8846fc44100352": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f8e43dfc8ffeuR0ng6GMN2lw0H",
+        "model": "gpt-oss-120b"
+      },
+      "human_author": "Walter Fan <walter.fan@zoom.us>"
+    }
+  }
+}
