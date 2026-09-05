@@ -1,0 +1,34 @@
+# Focused set: real bugs and performance, not style churn.
+# Widen later once the baseline stays clean.
+Checks: >
+  -*,
+  clang-diagnostic-*,
+  clang-analyzer-*,
+  bugprone-*,
+  performance-*,
+  misc-definitions-in-headers,
+  misc-misplaced-const,
+  misc-redundant-expression,
+  misc-static-assert,
+  misc-unconventional-assign-operator,
+  misc-unused-using-decls,
+  modernize-make-unique,
+  modernize-make-shared,
+  modernize-use-emplace,
+  modernize-use-nullptr,
+  modernize-use-override,
+  readability-container-size-empty,
+  readability-delete-null-pointer,
+  readability-misleading-indentation,
+  readability-redundant-control-flow,
+  readability-redundant-string-cstr,
+  readability-simplify-boolean-expr,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-narrowing-conversions
+
+WarningsAsErrors: '*'
+HeaderFilterRegex: 'include/aca/.*|src/.*|tests/.*|tools/.*'
+FormatStyle: file
+CheckOptions:
+  - key: bugprone-assert-side-effect.AssertMacros
+    value: 'assert,ASSERT,EXPECT,ASSERT_TRUE,ASSERT_FALSE,ASSERT_EQ,ASSERT_NE'

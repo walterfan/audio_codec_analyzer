@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- Project-level suppressions. Prefer fixing code over adding entries. -->
+<suppression>
+  <!-- Third-party / system headers. -->
+  <suppress>
+    <fileName>*/opus.h</fileName>
+  </suppress>
+  <suppress>
+    <fileName>*/speex/*.h</fileName>
+  </suppress>
+  <suppress>
+    <fileName>*/gtest/*</fileName>
+  </suppress>
+</suppression>

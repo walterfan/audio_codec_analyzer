@@ -1,0 +1,89 @@
+name: ci
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test:
+    name: test (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install deps (Ubuntu)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            cmake pkg-config \
+            libopus-dev libspeexdsp-dev libsndfile1-dev \
+            libgtest-dev
+
+      - name: Install deps (macOS)
+        if: runner.os == 'macOS'
+        run: brew install cmake pkg-config opus speexdsp libsndfile googletest
+
+      - name: Build + ctest
+        run: make test
+
+      - name: Fixtures + demo
+        run: make fixtures demo
+
+  asan:
+    name: asan (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install deps (Ubuntu)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            cmake pkg-config \
+            libopus-dev libspeexdsp-dev libsndfile1-dev \
+            libgtest-dev
+
+      - name: Install deps (macOS)
+        if: runner.os == 'macOS'
+        run: brew install cmake pkg-config opus speexdsp libsndfile googletest
+
+      - name: ASan + UBSan
+        run: make asan
+
+  tsan:
+    name: tsan (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        # TSan on Apple Clang is usable; keep both platforms covered.
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install deps (Ubuntu)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            cmake pkg-config \
+            libopus-dev libspeexdsp-dev libsndfile1-dev \
+            libgtest-dev
+
+      - name: Install deps (macOS)
+        if: runner.os == 'macOS'
+        run: brew install cmake pkg-config opus speexdsp libsndfile googletest
+
+      - name: ThreadSanitizer
+        run: make tsan
